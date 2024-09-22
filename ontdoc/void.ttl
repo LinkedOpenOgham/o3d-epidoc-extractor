@@ -237,9 +237,9 @@
     rdfs:label "Occurrences of vocabulary http://www.w3.org/2001/XMLSchema# in Ogham_From_Epidoc" ;
     voaf:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> .
 
-<https://github.com/ogi-ogham/oghamextractor> a adms:AssetRepository ;
+<https://github.com/LinkedOpenOgham/o3d-epidoc-extractor> a adms:AssetRepository ;
     rdfs:label "Repository for Ogham_From_Epidoc"@en ;
-    dcat:accessURL "https://github.com/ogi-ogham/oghamextractor"^^xsd:anyURI ;
+    dcat:accessURL "https://github.com/LinkedOpenOgham/o3d-epidoc-extractor"^^xsd:anyURI ;
     dcat:dataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> .
 
 <http://dbpedia.org/resource/Location> rdfs:label "Location"@en .
@@ -480,7 +480,7 @@ doap: a voaf:Vocabulary ;
 
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_dist_ttl> a adms:AssetDistribution ;
     rdfs:label "Ogham_From_Epidoc TTL Distribution"@en ;
-    dcat:downloadURL "https://ogi-ogham.github.io/oghamextractor/ontdoc//index.ttl"^^xsd:anyURI ;
+    dcat:downloadURL "https://LinkedOpenOgham.github.io/o3d-epidoc-extractor/ontdoc//index.ttl"^^xsd:anyURI ;
     dcat:mediaType <http://www.w3.org/ns/formats/Turtle> .
 
 <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_entry> a void:Dataset ;
@@ -711,7 +711,7 @@ foaf:Person rdfs:label "Person"@en .
     vext:languages 0 ;
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-09-22T16:57:54"^^xsd:dateTime ;
+    dcterms:modified "2024-09-22T19:03:21"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -750,7 +750,7 @@ foaf:Person rdfs:label "Person"@en .
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_SpatialObjectCollection>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Word> ;
     void:classes 29 ;
-    void:dataDump <https://ogi-ogham.github.io/oghamextractor/ontdoc//index.ttl> ;
+    void:dataDump <https://LinkedOpenOgham.github.io/o3d-epidoc-extractor/ontdoc//index.ttl> ;
     void:distinctObjects 2889 ;
     void:distinctSubjects 1064 ;
     void:entities 1017 ;
@@ -820,7 +820,7 @@ foaf:Person rdfs:label "Person"@en .
         "Person"@en,
         "Q121810372"@en,
         "Time"@en ;
-    dcat:landingPage <https://ogi-ogham.github.io/oghamextractor/ontdoc/> ;
-    foaf:homepage <https://ogi-ogham.github.io/oghamextractor/ontdoc/> ;
-    foaf:page <https://ogi-ogham.github.io/oghamextractor/ontdoc//index.html> .
+    dcat:landingPage <https://LinkedOpenOgham.github.io/o3d-epidoc-extractor/ontdoc/> ;
+    foaf:homepage <https://LinkedOpenOgham.github.io/o3d-epidoc-extractor/ontdoc/> ;
+    foaf:page <https://LinkedOpenOgham.github.io/o3d-epidoc-extractor/ontdoc//index.html> .
 

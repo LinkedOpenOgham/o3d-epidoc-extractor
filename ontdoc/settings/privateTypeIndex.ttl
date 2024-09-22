@@ -1,6 +1,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<https://ogi-ogham.github.io/oghamextractor/ontdoc//settings/privateTypeIndex.ttl> a <http://www.w3.org/ns/ldp#RDFResource>,
+<https://LinkedOpenOgham.github.io/o3d-epidoc-extractor/ontdoc//settings/privateTypeIndex.ttl> a <http://www.w3.org/ns/ldp#RDFResource>,
         <http://www.w3.org/ns/solid/terms#ListedDocument>,
         <http://www.w3.org/ns/solid/terms#TypeIndex> ;
     rdfs:label "Private Type Index"@en ;

@@ -46,7 +46,7 @@
     ns1:languages 0 ;
     ns1:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-09-22T16:57:54"^^xsd:dateTime ;
+    dcterms:modified "2024-09-22T19:03:21"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -85,7 +85,7 @@
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_SpatialObjectCollection>,
         <http://www.i3mainz.de/ogham#Ogham_From_Epidoc_Word> ;
     void:classes 29 ;
-    void:dataDump <https://ogi-ogham.github.io/oghamextractor/ontdoc//index.ttl> ;
+    void:dataDump <https://LinkedOpenOgham.github.io/o3d-epidoc-extractor/ontdoc//index.ttl> ;
     void:distinctObjects 2889 ;
     void:distinctSubjects 1064 ;
     void:entities 1017 ;
@@ -155,7 +155,7 @@
         "Person"@en,
         "Q121810372"@en,
         "Time"@en ;
-    dcat:landingPage <https://ogi-ogham.github.io/oghamextractor/ontdoc/> ;
-    foaf:homepage <https://ogi-ogham.github.io/oghamextractor/ontdoc/> ;
-    foaf:page <https://ogi-ogham.github.io/oghamextractor/ontdoc//index.html> .
+    dcat:landingPage <https://LinkedOpenOgham.github.io/o3d-epidoc-extractor/ontdoc/> ;
+    foaf:homepage <https://LinkedOpenOgham.github.io/o3d-epidoc-extractor/ontdoc/> ;
+    foaf:page <https://LinkedOpenOgham.github.io/o3d-epidoc-extractor/ontdoc//index.html> .
 
