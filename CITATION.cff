@@ -7,7 +7,7 @@ authors:
   - family-names: Homburg
     given-names: Timo
     orcid: https://orcid.org/0000-0002-9499-5840
-title: "oghamextractor"
+title: "o3d-epidoc-extractor"
 version: 1.0
-doi: 10.5281/zenodo.3969514
-date-released: 2020-08-01
+doi: 10.5281/zenodo.TBD
+date-released: 2024-09-22
