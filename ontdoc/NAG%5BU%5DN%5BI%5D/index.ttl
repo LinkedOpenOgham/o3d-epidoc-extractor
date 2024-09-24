@@ -1,23 +1,23 @@
-@prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
-@prefix ns2: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ns1: <http://www.w3.org/ns/lemon/lime#> .
+@prefix ns2: <http://www.w3.org/ns/lemon/ontolex#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
 <http://www.i3mainz.de/ogham#NAG%5BU%5DN%5BI%5D> a <http://www.w3.org/ns/ldp#Resource>,
-        ns1:Word,
+        ns2:Word,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Person Word: NAG[U]N[I] (ᚆᚐᚌᚒᚆᚔ)"@en,
         "Person: NAG[U]N[I]"@en,
         "Word: NAG[U]N[I] (ᚆᚐᚌᚒᚆᚔ)"@en ;
     void:inDataset <http://www.i3mainz.de/ogham#Ogham_From_Epidoc> ;
-    ns2:language <http://www.wikidata.org/entity/Q3320030> ;
-    ns1:contains <http://www.i3mainz.de/ogham#ᚆ_character>,
+    ns1:language <http://www.wikidata.org/entity/Q3320030> ;
+    ns2:contains <http://www.i3mainz.de/ogham#ᚆ_character>,
         <http://www.i3mainz.de/ogham#ᚌ_character>,
         <http://www.i3mainz.de/ogham#ᚐ_character>,
         <http://www.i3mainz.de/ogham#ᚒ_character>,
         <http://www.i3mainz.de/ogham#ᚔ_character> ;
-    ns1:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
-    ns1:sense <http://www.i3mainz.de/ogham#NAG%5BU%5DN%5BI%5D_sense> ;
-    ns1:transliteration "NAG[U]N[I]" ;
-    ns1:writtenRep "ᚆᚐᚌᚒᚆᚔ" .
+    ns2:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
+    ns2:sense <http://www.i3mainz.de/ogham#NAG%5BU%5DN%5BI%5D_sense> ;
+    ns2:transliteration "NAG[U]N[I]" ;
+    ns2:writtenRep "ᚆᚐᚌᚒᚆᚔ" .
 

@@ -1,27 +1,27 @@
-@prefix ns1: <http://www.w3.org/ns/lemon/ontolex#> .
-@prefix ns2: <http://www.w3.org/ns/lemon/lime#> .
-@prefix ns3: <http://www.i3mainz.de/ogham#> .
+@prefix ns1: <http://www.i3mainz.de/ogham#> .
+@prefix ns2: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix ns3: <http://www.w3.org/ns/lemon/lime#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 
-ns3:LUGA a <http://www.w3.org/ns/ldp#Resource>,
-        ns1:Word,
+ns1:LUGA a <http://www.w3.org/ns/ldp#Resource>,
+        ns2:Word,
         <http://www.wikidata.org/entity/Q3538737>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Person Word: LUGA (ᚂᚒᚌᚐ)"@en,
         "Person: LUGA"@en,
         "Tribe: LUGA"@en,
         "Word: LUGA (ᚂᚒᚌᚐ)"@en ;
-    void:inDataset ns3:Ogham_From_Epidoc ;
-    ns3:hasMember ns3:COLLABOT_person,
-        ns3:MEDUSI_person ;
-    ns2:language <http://www.wikidata.org/entity/Q3320030> ;
-    ns1:contains ns3:ᚂ_character,
-        ns3:ᚌ_character,
-        ns3:ᚐ_character,
-        ns3:ᚒ_character ;
-    ns1:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
-    ns1:sense ns3:LUGA_sense ;
-    ns1:transliteration "LUGA" ;
-    ns1:writtenRep "ᚂᚒᚌᚐ" .
+    void:inDataset ns1:Ogham_From_Epidoc ;
+    ns1:hasMember ns1:COLLABOT_person,
+        ns1:MEDUSI_person ;
+    ns3:language <http://www.wikidata.org/entity/Q3320030> ;
+    ns2:contains ns1:ᚂ_character,
+        ns1:ᚌ_character,
+        ns1:ᚐ_character,
+        ns1:ᚒ_character ;
+    ns2:lexicalCategory <http://www.wikidata.org/entity/Q147276> ;
+    ns2:sense ns1:LUGA_sense ;
+    ns2:transliteration "LUGA" ;
+    ns2:writtenRep "ᚂᚒᚌᚐ" .
 
