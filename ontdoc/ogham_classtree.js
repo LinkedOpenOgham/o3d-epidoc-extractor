@@ -1662,23 +1662,19 @@ var tree={
               "http://www.w3.org/2002/07/owl#Class": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 2
+              "instancecount": 0
             },
             "http://www.w3.org/ns/lemon/lime#language": {
               "instancecount": 0,
               "http://www.wikidata.org/entity/Q34770": 1
             },
             "http://www.w3.org/ns/lemon/ontolex#contains": {
-              "instancecount": 6,
-              "http://www.wikidata.org/entity/Q41812345": 7
+              "instancecount": 1,
+              "http://www.wikidata.org/entity/Q41812345": 2
             },
             "http://www.w3.org/ns/lemon/ontolex#lexicalCategory": {
               "instancecount": 0,
               "http://www.w3.org/2002/07/owl#Class": 1
-            },
-            "http://www.w3.org/ns/lemon/ontolex#sense": {
-              "instancecount": 0,
-              "http://www.w3.org/ns/lemon/ontolex#LexicalSense": 1
             },
             "http://www.w3.org/ns/lemon/ontolex#transliteration": {
               "instancecount": 0
@@ -1695,14 +1691,10 @@ var tree={
             "http://www.w3.org/ns/lemon/lime#entry": {
               "instancecount": 0,
               "http://www.w3.org/ns/lemon/lime#Lexicon": 1
-            },
-            "http://www.wikidata.org/prop/direct/P6568": {
-              "instancecount": 0,
-              "http://www.i3mainz.de/ogham#OghamObject": 2
             }
           }
         },
-        "instancecount": 8
+        "instancecount": 1
       },
       {
         "id": "http://www.i3mainz.de/ogham#CIIC+285.+Kilbeg_geom",
@@ -4387,9 +4379,6 @@ var tree={
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0,
               "http://www.w3.org/2002/07/owl#Class": 1
-            },
-            "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 0
             }
           },
           "from": {
@@ -4400,14 +4389,6 @@ var tree={
             "http://www.w3.org/ns/lemon/ontolex#reference": {
               "instancecount": 0,
               "http://www.w3.org/ns/lemon/ontolex#LexicalSense": 1
-            },
-            "http://www.wikidata.org/prop/direct/P22": {
-              "instancecount": 0,
-              "http://xmlns.com/foaf/0.1/Person": 2
-            },
-            "http://www.wikidata.org/prop/direct/P6568": {
-              "instancecount": 0,
-              "http://www.i3mainz.de/ogham#OghamObject": 2
             }
           }
         },
@@ -7100,8 +7081,8 @@ var tree={
             },
             "http://www.wikidata.org/prop/direct/P6568": {
               "instancecount": 3,
-              "http://xmlns.com/foaf/0.1/Person": 2,
-              "http://www.w3.org/ns/lemon/ontolex#Word": 2
+              "http://www.w3.org/ns/lemon/ontolex#Word": 2,
+              "http://xmlns.com/foaf/0.1/Person": 2
             }
           },
           "from": {
@@ -7279,8 +7260,8 @@ var tree={
               "http://www.wikidata.org/entity/Q34770": 1
             },
             "http://www.w3.org/ns/lemon/ontolex#contains": {
-              "instancecount": 2,
-              "http://www.wikidata.org/entity/Q41812345": 3
+              "instancecount": 4,
+              "http://www.wikidata.org/entity/Q41812345": 5
             },
             "http://www.w3.org/ns/lemon/ontolex#lexicalCategory": {
               "instancecount": 0,
@@ -7316,7 +7297,7 @@ var tree={
             }
           }
         },
-        "instancecount": 6
+        "instancecount": 8
       },
       {
         "id": "http://www.i3mainz.de/ogham#\u1693_character",
@@ -7471,9 +7452,9 @@ var tree={
             },
             "http://www.w3.org/ns/lemon/ontolex#contains": {
               "instancecount": 0,
-              "http://www.w3.org/ns/lemon/ontolex#Word": 79,
-              "http://www.wikidata.org/entity/Q3538737": 5,
-              "http://www.wikidata.org/entity/Q67382150": 2
+              "http://www.w3.org/ns/lemon/ontolex#Word": 42,
+              "http://www.wikidata.org/entity/Q3538737": 1,
+              "http://www.wikidata.org/entity/Q67381377": 1
             }
           }
         },
@@ -7559,8 +7540,8 @@ var tree={
               "http://www.wikidata.org/entity/Q34770": 1
             },
             "http://www.w3.org/ns/lemon/ontolex#contains": {
-              "instancecount": 1,
-              "http://www.wikidata.org/entity/Q41812345": 2
+              "instancecount": 4,
+              "http://www.wikidata.org/entity/Q41812345": 5
             },
             "http://www.w3.org/ns/lemon/ontolex#lexicalCategory": {
               "instancecount": 0,
@@ -7584,7 +7565,7 @@ var tree={
             }
           }
         },
-        "instancecount": 2
+        "instancecount": 5
       },
       {
         "id": "http://www.wikidata.org/entity/Q67384733",
@@ -7687,8 +7668,8 @@ var tree={
               "http://www.wikidata.org/entity/Q34770": 1
             },
             "http://www.w3.org/ns/lemon/ontolex#contains": {
-              "instancecount": 7,
-              "http://www.wikidata.org/entity/Q41812345": 8
+              "instancecount": 5,
+              "http://www.wikidata.org/entity/Q41812345": 6
             },
             "http://www.w3.org/ns/lemon/ontolex#lexicalCategory": {
               "instancecount": 0,
@@ -7720,7 +7701,7 @@ var tree={
             }
           }
         },
-        "instancecount": 10
+        "instancecount": 8
       },
       {
         "id": "http://www.i3mainz.de/ogham#OghamDictionary",
@@ -7847,13 +7828,16 @@ var tree={
               "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.w3.org/ns/lemon/lime#Lexicon": 1
+              "instancecount": 228,
+              "http://www.w3.org/ns/lemon/ontolex#Word": 229,
+              "http://www.wikidata.org/entity/Q3538737": 14,
+              "http://www.wikidata.org/entity/Q67381377": 6,
+              "http://www.wikidata.org/entity/Q67382150": 3
             }
           },
           "from": {}
         },
-        "instancecount": 1
+        "instancecount": 229
       },
       {
         "id": "http://www.i3mainz.de/ogham#Point_collection",
